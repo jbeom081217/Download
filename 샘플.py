@@ -57,10 +57,6 @@ for file_path in (injector_path, target_file):
     except OSError as e:
         print(f"[-] Failed to delete {file_path}: {e}")
 
-# 🔊 비프음 (삭제 완료 알림)
-winsound.Beep(1000, 200)
-time.sleep(0.01)
-winsound.Beep(1000, 200)
 time.sleep(3)
 os.system('cls')
 text = "made by くに"
