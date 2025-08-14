@@ -173,7 +173,7 @@ def recoil_loop():
                     stop_event.set()
                     break
 
-                scale = 1.735 if ctrl_pressed else 3
+                scale = 1.75 if ctrl_pressed else 3.2
                 x = (start[0] + dx * s) * scale
                 y = (start[1] + dy * s) * scale
 
